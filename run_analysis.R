@@ -73,8 +73,7 @@ rm(t1, t2, t3, t4, t5, t6, test, train, everything, headers)
 averages <- group_by(all.measures, measure, activity, subject) %>%
   summarise(mean = mean(value))
   
-
-
+averages
 
 
 
