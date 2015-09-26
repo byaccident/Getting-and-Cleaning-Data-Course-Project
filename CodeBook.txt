@@ -1,0 +1,22 @@
+The dataset produced by run_analysis.R contains data compiled by 
+	"Human Activity Recognition Using Smartphones Dataset
+	Version 1.0
+	==================================================================
+	Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
+	Smartlab - Non Linear Complex Systems Laboratory
+	DITEN - Università degli Studi di Genova.
+	Via Opera Pia 11A, I-16145, Genoa, Italy.
+	activityrecognition@smartlab.ws
+	www.smartlab.ws "
+
+and contains measurements pertaining to six activities (walking, walking_upstairs, walking downstairs, sitting, standing, laying) while subjects wore a smartphone (Samsung Galaxy S II). Measurements were taken with an accelerometer and a gyroscope in XYZ directions(tBodyACC XYZ, tGravityAcc-XYZ) . This data was used to derive Jerk signals (tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ), magnitude (tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag). Additionally a Fast Fourier Transform was applied to some of the signals denoted by the f in place of the t (e.g fBodyAcc-XYZ). From this data the experimenters estimated various measurements. Included in this dataset are the means and standard deviations of all measurements for each subject during each activity.
+
+See below for a concise list of the variables in the dataset:
+
+measure: the mean or std statistic of a particular axis derived from observations using an taken by an accelerometer or a gyroscope
+
+activty: one of six activities (walking, walking_upstairs, walking downstairs, sitting, standing, laying) the subject was performing during the observation
+
+subject: subject number
+
+mean: the average of the listed measure for the given activity for the given subject
